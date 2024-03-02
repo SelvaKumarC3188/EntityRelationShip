@@ -47,7 +47,7 @@ public String delete(@PathVariable int a) {
 public List<Car> getbrand(@PathVariable String brand)throws Brandnotfoundexception{
 	return cs.getbrand(brand);	
 }
-@GetMapping("/getcolor/{color}")
+@GetMapping("/getcolour/{color}")
 public List<Car> getcolor(@PathVariable String color){
 	return cs.getcolor(color);
 }
